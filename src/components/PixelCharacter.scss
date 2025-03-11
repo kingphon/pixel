@@ -1,0 +1,48 @@
+$darkhair: #635740;
+$lighthair: #7b7158;
+$hairband: #4c704b;
+$skin: #ffd7b5;
+$eyebrow: #474335;
+$eye: #2c6e66;
+$beard: #474434;
+$scale: 30px;
+
+.pixel-character {
+  width: $scale;
+  height: $scale;
+  margin: $scale 2 * $scale;
+  box-shadow: 2 * $scale -1 * $scale $lighthair,
+    3 * $scale -1 * $scale $lighthair, $scale 0 $darkhair,
+    2 * $scale 0 $darkhair, 3 * $scale 0 $hairband, 4 * $scale 0 $lighthair,
+    5 * $scale 0 $lighthair, 6 * $scale 0 $lighthair, 7 * $scale 0 $lighthair,
+    $scale $scale $darkhair, 2 * $scale $scale $hairband,
+    3 * $scale $scale $lighthair, 4 * $scale $scale $lighthair,
+    5 * $scale $scale $lighthair, 6 * $scale $scale $lighthair,
+    7 * $scale $scale $lighthair, 8 * $scale $scale $lighthair,
+    2 * $scale 2 * $scale $darkhair, 3 * $scale 2 * $scale $lighthair,
+    4 * $scale 2 * $scale $lighthair, 5 * $scale 2 * $scale $lighthair,
+    6 * $scale 2 * $scale $lighthair, 7 * $scale 2 * $scale $lighthair,
+    8 * $scale 2 * $scale $darkhair, 9 * $scale 2 * $scale $darkhair,
+    2 * $scale 3 * $scale $darkhair, 3 * $scale 3 * $scale $darkhair,
+    4 * $scale 3 * $scale $darkhair, 5 * $scale 3 * $scale $darkhair,
+    6 * $scale 3 * $scale $darkhair, 7 * $scale 3 * $scale $darkhair,
+    8 * $scale 3 * $scale $darkhair, 9 * $scale 3 * $scale $darkhair,
+    2 * $scale 4 * $scale $darkhair, 3 * $scale 4 * $scale $darkhair,
+    4 * $scale 4 * $scale $skin, 5 * $scale 4 * $scale $skin,
+    6 * $scale 4 * $scale $skin, 7 * $scale 4 * $scale $skin,
+    8 * $scale 4 * $scale $skin, 9 * $scale 4 * $scale $darkhair,
+    2 * $scale 5 * $scale $skin, 3 * $scale 5 * $scale $darkhair,
+    4 * $scale 5 * $scale $eyebrow, 5 * $scale 5 * $scale $eyebrow,
+    6 * $scale 5 * $scale $skin, 7 * $scale 5 * $scale $skin,
+    8 * $scale 5 * $scale $eyebrow, 9 * $scale 5 * $scale $darkhair,
+    2 * $scale 6 * $scale $skin, 3 * $scale 6 * $scale $skin,
+    4 * $scale 6 * $scale white, 5 * $scale 6 * $scale $eye,
+    6 * $scale 6 * $scale $skin, 7 * $scale 6 * $scale $skin,
+    8 * $scale 6 * $scale $eye, 3 * $scale 7 * $scale $skin,
+    4 * $scale 7 * $scale $skin, 5 * $scale 7 * $scale $skin,
+    6 * $scale 7 * $scale $skin, 7 * $scale 7 * $scale $skin,
+    8 * $scale 7 * $scale $skin, 4 * $scale 8 * $scale $skin,
+    5 * $scale 8 * $scale $beard, 6 * $scale 8 * $scale $beard,
+    7 * $scale 8 * $scale $beard, 8 * $scale 8 * $scale $beard,
+    5 * $scale 4 * $scale $skin; // TODO: clear this
+}
